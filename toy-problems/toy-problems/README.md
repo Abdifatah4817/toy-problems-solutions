@@ -1,37 +1,47 @@
 # Toy Problems Solution
 
-## Description
+## 📚 Description
 
-This repository contains JavaScript solutions for three basic programming challenges:
+This repository contains solutions to three JavaScript toy problems designed to test basic programming logic and application of real-world scenarios. The challenges include:
 
-1. **Student Grade Generator** – Prompts for student marks and returns the correct grade.
-2. **Speed Detector** – Takes car speed as input and prints demerit points or license suspension.
-3. **Net Salary Calculator** – Calculates gross and net salary, applying KRA, NHIF, and NSSF deductions.
+1. **Student Grade Generator** – Calculates a student’s grade based on input marks.
+2. **Speed Detector** – Checks car speed against a speed limit and issues demerit points or suspends license.
+3. **Net Salary Calculator** – Calculates an individual’s gross and net salary after applying PAYE, NHIF, and NSSF deductions using current Kenyan rates.
 
 ---
 
-## Project Setup
+## 📁 Project Structure
 
-### Folder Structure
+All solution files are placed inside the `solutions/` folder. Each file contains only one problem solution:
 
-All solutions are in the `solutions/` folder:
 solutions/
 ├── student-grade.js
 ├── speed-detector.js
 └── net-salary-calculator.js
 
+Each JavaScript file is fully commented to explain the logic used.
 
-### How to Run
+---
 
-Make sure Node.js is installed, then run each file like this:
+## ▶️ How to Run
+
+To run the programs on your machine:
+
+### 1. Install Node.js
+Ensure you have [Node.js](https://nodejs.org/) installed.
+
+### 2. Clone the repository
 
 ```bash
-cd solutions
+git clone https://github.com/Abdifatah4817/toy-problems-solution.git
+cd toy-problems-solution/solutions
+
+
 node student-grade.js
 node speed-detector.js
 node net-salary-calculator.js
 
-Author
+👨🏽‍💻 Author
 
 Name: Abdifatah
 GitHub: @Abdifatah4817

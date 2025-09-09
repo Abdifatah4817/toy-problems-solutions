@@ -7,5 +7,5 @@ function gradeGenerator(marks) {
 }
 
 // Example
-const marks = 84;
+const marks = 50;
 console.log("Grade:", gradeGenerator(marks));
